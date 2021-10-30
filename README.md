@@ -25,7 +25,7 @@
 
 *   修改 `src/App.vue`第`42`行指向自己的库（参看第`41`行的例子）
 *   修改 `src/App.vue`第`43`行（如未设`API_KEY`可不修改）
-*   修改 `src/App.vue` 第`47`(参看第`46`行的例子)
+*   修改 `src/App.vue` 第`47`行(参看第`46`行的例子)
 *   根据需要修改 `src/App.vue`第`12`行 (`attribute="id"`）及 第`15`行 (`attribute="overview"`），可删掉第`18-26`行
 
 *   可选
