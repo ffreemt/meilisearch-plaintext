@@ -1,11 +1,11 @@
-# MeiliSearch 文本搜索（如语料库、字典、个人笔记等）
+# MeiliSearch 文本搜索（如语料库、字典、个人笔记等）初学者模板
 （基于`meilisearch-vue`的`example/nobel-prizes`）
 
 ## 使用
 
 *   下载库及安装包
     ```bash
-    git clone
+    git clone https://github.com/ffreemt/meilisearch-plaintext.git
     cd meilisearch-plaintext
     yarn  # 或 npm install
     ```
@@ -19,7 +19,9 @@
 
 [![Nobel prizes demo](img/demo.png)]()
 
-## 运行自己的`meilisearch`库
+## 搜索自己的`meilisearch`库
+
+ （如何建`meilisearch`库请参看[`meilisearch`主页](https://www.meilisearch.com/)）
 
 *   修改 `src/App.vue`第`42`行指向自己的库（参看第`41`行的例子）
 *   修改 `src/App.vue`第`43`行（如未设`API_KEY`可不修改）
