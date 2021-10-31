@@ -37,8 +37,21 @@
     ```
 
 
-# 启动 http 服务器
+## 启动 http 服务器
 例如 `cd dist && python -m http.server`
 
 搜索`card shark`
 [![Movies demo](img/demo1.png)]()
+
+## 纯js版
+
+只需`vanillajs`目录里的两个文件。
+
+修改`app.js`第3、6、7（如果设了meilisearch设了API_KEY，没设的话不用动)、22、23行。
+### 启动 http 服务器
+例如 `cd vanillajs && python -m http.server`
+
+搜索`card shark`
+[![Movies demo](img/demo2.png)]()
+
+界面比较简陋，但对于有些应用可能已经够了。或许可以加`style`整漂亮点。
